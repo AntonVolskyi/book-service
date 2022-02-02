@@ -8,7 +8,7 @@ import book.manager.service.AuthorService;
 import book.manager.service.BookService;
 import org.springframework.stereotype.Component;
 
-//@Component
+@Component
 public class DataInject {
     private Author authorKing;
     private Author authorLelush;

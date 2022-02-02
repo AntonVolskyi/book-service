@@ -7,6 +7,7 @@ import book.manager.dto.request.AuthorRequestDto;
 import book.manager.dto.response.AuthorRateResponseDto;
 import book.manager.model.Author;
 import book.manager.service.AuthorService;
+import book.manager.service.BookService;
 import io.restassured.http.ContentType;
 import io.restassured.module.mockmvc.RestAssuredMockMvc;
 import org.hamcrest.Matchers;
@@ -29,6 +30,8 @@ class AuthorControllerTest {
     private MockMvc mockMvc;
     @MockBean
     private AuthorService authorService;
+    @MockBean
+    private BookService bookService;
 
     @BeforeEach
     void setUp() {
