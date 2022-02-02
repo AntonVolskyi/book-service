@@ -5,7 +5,7 @@
 - Enter your data to connect to the database in a file:
 `src/main/resources/application.properties`
 ```properties
-datasource.url=YOUR_DB_URL
+spring.datasource.url=YOUR_DB_URL
 spring.datasource.username=YOUR_DB_USERNAME
 spring.datasource.password=YOUR_DB_PASSWORD
 ```
